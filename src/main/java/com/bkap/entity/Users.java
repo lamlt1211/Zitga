@@ -36,13 +36,13 @@ public class Users implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "fullname", length = 45)
+    @Column(name = "fullname")
     private String fullName;
-    @Column(name = "email", length = 45)
+    @Column(name = "email")
     private String email;
-    @Column(name = "username", length = 45)
+    @Column(name = "username")
     private String username;
-    @Column(name = "password", length = 60)
+    @Column(name = "password")
     private String password;
     @CreationTimestamp
     @Column(name = "createdat", updatable = false)

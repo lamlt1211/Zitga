@@ -20,6 +20,6 @@ public class EncrytedPasswordUtil {
 
     public static void main(String[] args) {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        log.info(encrytePassword("vuhai94"));
+        log.info(encrytePassword("123"));
     }
 }

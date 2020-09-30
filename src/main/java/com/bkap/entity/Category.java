@@ -33,9 +33,9 @@ public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "name", length = 45)
+    @Column(name = "name")
     private String name;
-    @Column(name = "description", length = 45)
+    @Column(name = "description")
     private String description;
     @CreationTimestamp
     @Column(name = "createdat", updatable = false)

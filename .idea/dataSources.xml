@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MariaDB - timespawn_games@192.90.51.167" uuid="515d6f8f-4857-4c01-8216-f53b211f4584">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://192.90.51.167:3306/timespawn_games</jdbc-url>
+    </data-source>
+  </component>
+</project>

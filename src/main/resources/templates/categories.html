@@ -157,13 +157,13 @@
                                         <div style="display:table-cell; padding-left:0.5em;">
                                           <span class="page__taxonomy">
                                             <span itemprop="keywords">
-                                              <a th:href="@{'/home/category/#'+${category.name}}" class="page__taxonomy-item" th:text="${category.name}" rel="tag"></a>
+                                              <a th:href="@{'/category/#'+${category.name}}" class="page__taxonomy-item" th:text="${category.name}" rel="tag"></a>
                                             </span>
                                           </span>
                                         </div>
                                         <div style="display:table-cell; padding-left:0.2em;">
                                             <strong>
-                                                <a th:href="@{'/home/news?id='+${news.id}}" rel="permalink" th:text="${news.shortDescription}"></a>
+                                                <a th:href="@{'/news?id='+${news.id}}" rel="permalink" th:text="${news.shortDescription}"></a>
                                             </strong>
                                         </div>
                                     </div>

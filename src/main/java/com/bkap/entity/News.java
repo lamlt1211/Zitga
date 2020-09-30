@@ -36,13 +36,13 @@ public class News implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "name", length = 45)
+    @Column(name = "name")
     private String name;
-    @Column(name = "image", length = 255)
+    @Column(name = "image")
     private String image;
-    @Column(name = "content", length = 255)
+    @Column(name = "content", columnDefinition = "TEXT")
     private String content;
-    @Column(name = "shortDescription", columnDefinition = "text")
+    @Column(name = "shortDescription")
     private String shortDescription;
     @CreationTimestamp
     @Column(name = "createdat", updatable = false)
